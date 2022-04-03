@@ -75,13 +75,13 @@ botname = setting.BotName
 ownername = setting.OwnerName
 gaya1 = setting.gaya1
 gaya2 = setting.gaya2
-const fakeimage = fs.readFileSync ('./media/dogepic1.jpg')
-const thumb = fs.readFileSync ('./media/dogetb.jpg')
+const fakeimage = fs.readFileSync ('./media/kichuser.jpg')
+const thumb = fs.readFileSync ('./media/kichuser.jpg')
 
 //══════════[ Developer Number ]══════════//
 
-developerNo = '916909137213'
-developerName= '🦄Dream Guy Xeon'
+developerNo = '919961857267'
+developerName= 'KICHU'
 
 //══════════[ Apikeys ]══════════//
 //----credit goes to all the respected owner---//
@@ -164,7 +164,7 @@ module.exports = DogeXeonOP = async (DogeXeonOP, mek, _welkom) => {
 		const q = args.join(' ')
 		const txt = mek.message.conversation
 		const botNumber = DogeXeonOP.user.jid
-		const ownerNumber = [`${owner}@s.whatsapp.net`, `916909137213@s.whatsapp.net`]
+		const ownerNumber = [`${owner}@s.whatsapp.net`, `919961857267@s.whatsapp.net`]
 		const isGroup = from.endsWith('@g.us')
 		let sender = isGroup ? mek.participant : mek.key.remoteJid
 		let senderr = mek.key.fromMe ? DogeXeonOP.user.jid : mek.key.remoteJid.endsWith('@g.us') ? mek.participant : mek.key.remoteJid
@@ -198,7 +198,7 @@ module.exports = DogeXeonOP = async (DogeXeonOP, mek, _welkom) => {
 			try {
 		pporang = await DogeXeonOP.getProfilePicture(`${sender.split('@')[0]}@s.whatsapp.net`)
 		      } catch {
-		pporang = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
+		pporang = 'https://i.imgur.com/dtMKCN3.jpeg'
 		      }
 		const ofrply = await getBuffer(pporang)
 
@@ -388,8 +388,8 @@ const floc = { key : { participant : '0@s.whatsapp.net' }, message: { liveLocati
 const fvid = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6289643739077-1613049930@g.us" } : {}) }, message: { "videoMessage": {  "title": `${ucapanWaktu} ${pushname}`, "h": `${ucapanWaktu} ${pushname}`, 'duration': '99999', 'caption': `${ucapanWaktu} ${pushname}`, 'jpegThumbnail': thumb }}}
 const fvoc = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6289643739077-1613049930@g.us" } : {}) }, message: { "audioMessage": { "mimetype":"audio/ogg; codecs=opus", "seconds": "99999", "ptt": "true" }}}
 const fgi = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6289643739077-1613049930@g.us" } : {}) }, message: { "videoMessage": { "title": `${ucapanWaktu} ${pushname}`, "h": `${ucapanWaktu} ${pushname}`, 'duration': '99999', 'gifPlayback': 'true', 'caption': `${ucapanWaktu} ${pushname}`, 'jpegThumbnail': thumb }}}
-const textImg = (teks) => { return DogeXeonOP.sendMessage(from, teks, text, {quoted: fgi, thumbnail: fs.readFileSync('./media/dogetb.jpg')})}
-const fakeitem = (teks) => { DogeXeonOP.sendMessage(from, teks, text, { quoted: { key:{ fromMe:false, participant:`0@s.whatsapp.net`, ...(from ? { remoteJid :"6289523258649-1604595598@g.us" }: {})},message:{"orderMessage":{"orderId":"174238614569481","thumbnail":fs.readFileSync("./media/dogetb.jpg"),"itemCount":9999999999,"status":"INQUIRY","surface":"CATALOG","message": `${ucapanWaktu} ${pushname}`,"token":"AR6xBKbXZn0Xwmu76Ksyd7rnxI+Rx87HfinVlW4lwXa6JA=="}}},contextInfo: {"forwardingScore":999,"isForwarded":true}, sendEphemeral: true})}
+const textImg = (teks) => { return DogeXeonOP.sendMessage(from, teks, text, {quoted: fgi, thumbnail: fs.readFileSync('./media/kichuser.jpg')})}
+const fakeitem = (teks) => { DogeXeonOP.sendMessage(from, teks, text, { quoted: { key:{ fromMe:false, participant:`0@s.whatsapp.net`, ...(from ? { remoteJid :"6289523258649-1604595598@g.us" }: {})},message:{"orderMessage":{"orderId":"174238614569481","thumbnail":fs.readFileSync("./media/kichuser.jpg"),"itemCount":9999999999,"status":"INQUIRY","surface":"CATALOG","message": `${ucapanWaktu} ${pushname}`,"token":"AR6xBKbXZn0Xwmu76Ksyd7rnxI+Rx87HfinVlW4lwXa6JA=="}}},contextInfo: {"forwardingScore":999,"isForwarded":true}, sendEphemeral: true})}
 
 //══════════[ Storage ]══════════//
 
@@ -436,7 +436,7 @@ let ane = []
 for (let i of members){
 ane.push(i.jid)
 }
-DogeXeonOP.sendMessage(from, {text:text, jpegThumbnail:fs.readFileSync('media/dogepic1.jpg')}, 'extendedTextMessage', {contextInfo: {"mentionedJid": ane}})
+DogeXeonOP.sendMessage(from, {text:text, jpegThumbnail:fs.readFileSync('media/kichuser.jpg')}, 'extendedTextMessage', {contextInfo: {"mentionedJid": ane}})
 }
 const hideTagKontak = async function(from, nomor, nama){
 let vcard = 'BEGIN:VCARD\n' + 'VERSION:3.0\n' + 'FN:' + nama + '\n' + 'ORG:Kontak\n' + 'TEL;type=CELL;type=VOICE;waid=' + nomor + ':+' + nomor + '\n' + 'END:VCARD'
@@ -519,7 +519,7 @@ for (let anji of setik){
 │
 ╰───「 *🥳ʟᴇᴠᴇʟ ᴜᴘ🥳* 」`)
 		  but = [{ buttonId: `!menu`, buttonText: { displayText: 'MENU 🗃️' }, type: 1 }]
-          sendButton(from, lvlup, '*Doge Bot*', but)
+          sendButton(from, lvlup, '*KICHU BOT*', but)
 
                 }
             } catch (err) {
@@ -1458,17 +1458,10 @@ case 'rentbot':
 menu =
 `*${ucapanWaktu} @${senderr.split('@')[0]}*
 
-\`\`\`OPEN FOR RENT :\`\`\`
-➪ *1 Week :* _100INR_
-➪ *1 Month :* _200INR_
-➪ *Permanent :* _550INR_
 
-\`\`\`OPEN FOR STUDENTS :\`\`\`
-➪ *Ordinary student :* _500INR_
-➪ *Premium student :* _1000INR_
 
 \`\`\`OPEN FOR SC :\`\`\`
-➪ *Wanna buy this script? :* _Price: ₹250 (India)_
+➪ *Wanna buy this script? :* _Price: Free!_
 
 For those who want to buy script or interested in any of the above
 Can request, if interested please contact the developer`
@@ -1477,7 +1470,7 @@ break
 case 'bayar':
 case 'payment':
 
-gambar = fs.readFileSync('./media/doged.jpg')
+gambar = fs.readFileSync('./media/kichuser.jpg')
 menunya = `*「 PAYMENT 」*
 
 • Note: Talk to the owner before payment
@@ -1507,7 +1500,7 @@ Size : ${res[0].size}
 Link : ${res[0].link}
 
 Please Choose Whether Document, Audio or Video Below`
-        sendButMessage(from, result, `*Doge Bot*`, [
+        sendButMessage(from, result, `*KICHU BOT*`, [
           {
             buttonId: `${prefix}fire ${teks}`,
             buttonText: {
@@ -2843,7 +2836,7 @@ vcard2 = 'BEGIN:VCARD\n'
 DogeXeonOP.sendMessage(from, {displayName: `The owner ${botname}`, vcard: vcard2}, contact, 
 { quoted: fgi, 
 })
-reply(`_The above contact is my owner 🐶🦄_`)
+reply(`_Kichu is my owner 😌⚡_`)
 break
 case 'developer':
 
@@ -2854,7 +2847,7 @@ members_ids.push(mem.jid)
 vcard2 = 'BEGIN:VCARD\n'
 + 'VERSION:3.0\n'
 + `FN:${developerName}\n`
-+ `ORG: Developer Of Doge Bot ;\n`
++ `ORG: Developer Of KICHU-SER-V2 ;\n`
 + `TEL;type=CELL;type=VOICE;waid=${developerNo}:${developerNo}\n`
 + 'END:VCARD'.trim()
 DogeXeonOP.sendMessage(from, {displayName: `The owner ${botname}`, vcard: vcard2}, contact, 
@@ -2867,10 +2860,10 @@ case 'sc':
 case 'script':
 case 'sourcode':
 
-scpic = fs.readFileSync('./media/scpic.jpg')
-scsell = `*🐶𝗗𝗼𝗴𝗲 𝗕𝗼𝘁 𝗩𝟯 𝗦𝗰𝗿𝗶𝗽𝘁🐶*\n\n_• 𝒀𝒐𝒖𝑻𝒖𝒃𝒆: https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A_\n_• 𝑮𝒊𝒕𝑯𝒖𝒃: https://github.com/DGXeon/DogeBot3_\n\n_𝙄𝙛 𝙮𝙤𝙪 𝙬𝙞𝙨𝙝 𝙩𝙤 𝙗𝙪𝙮 𝙪𝙣𝙚𝙣𝙘𝙧𝙮𝙥𝙩𝙚𝙙 𝙨𝙘𝙧𝙞𝙥𝙩 𝙘𝙡𝙞𝙘𝙠 𝙤𝙣 𝙩𝙝𝙚 𝙗𝙪𝙮 𝙨𝙘𝙧𝙞𝙥𝙩 𝙗𝙪𝙩𝙩𝙤𝙣 𝙗𝙚𝙡𝙤𝙬._`
+scpic = fs.readFileSync('./media/kichuser.jpg')
+scsell = `*KICHU-SER-V2 BOT😼❤*\n\n_• OWNER: wa.me/919961857267_\n_• GIT LINK: https://github.com/Itsme-soman/KICHU-SER-V2_\n\n_𝙄𝙛 𝙮𝙤𝙪 𝙬𝙞𝙨𝙝 𝙩𝙤 𝙗𝙪𝙮 𝙪𝙣𝙚𝙣𝙘𝙧𝙮𝙥𝙩𝙚𝙙 𝙨𝙘𝙧𝙞𝙥𝙩 𝙘𝙡𝙞𝙘𝙠 𝙤𝙣 𝙩𝙝𝙚 𝙗𝙪𝙮 𝙨𝙘𝙧𝙞𝙥𝙩 𝙗𝙪𝙩𝙩𝙤𝙣 𝙗𝙚𝙡𝙤𝙬._`
 but = [
-{ buttonId: `${prefix}rentbot`, buttonText: { displayText: 'BUY SCRIPT 💵' }, type: 1 },
+{ buttonId: `${prefix}rentbot`, buttonText: { displayText: 'SCRIPT' }, type: 1 },
 { buttonId: `${prefix}developer`, buttonText: { displayText: 'DEVELOPER 👨🏼‍💻' }, type: 1 }
 ]
 sendButImage(from, scsell, `*_${tanggal} - ${time}_*`, scpic, but)
@@ -4932,7 +4925,7 @@ reply(`${err}`)
     e = String(e)
     if (!e.includes("this.isZero") && !e.includes("jid")) {
 	console.log('Error : %s', color(e, 'red'))
-	DogeXeonOP.sendMessage(`${owner}@s.whatsapp.net`, `─────「 *ALERT-ERROR* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Dream Guy Xeon",body:"Dont forget to subscribe Xeon",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/dogepic1.jpg'),sourceUrl:"https://wa.me/916909137213"}}})
+	DogeXeonOP.sendMessage(`${owner}@s.whatsapp.net`, `─────「 *ALERT-ERROR* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Kichu",body:"Dont forget to follow Kichu in insta",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/kichuser.jpg'),sourceUrl:"https://wa.me/919961857267"}}})
         }
 	// console.log(e)
 	}
