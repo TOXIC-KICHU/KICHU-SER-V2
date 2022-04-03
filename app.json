@@ -1,8 +1,8 @@
 {
-  "name": "DogeBotV3",
+  "name": "KICHU-SER-V2",
   "description": "whatsapp bot build with nodejs",
-  "repository": "https://github.com/DGXeon/DogeBot3",
-  "logo": "https://pbs.twimg.com/media/Erh9GtGXYAETLkU?format=jpg&name=900x900",
+  "repository": "https://github.com/Itsme-soman/KICHU-SER-V2",
+  "logo": "https://i.imgur.com/dtMKCN3.jpeg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation"],
   "buildpacks": [
     {
