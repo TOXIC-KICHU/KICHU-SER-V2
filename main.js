@@ -19,8 +19,8 @@ const setting = JSON.parse(fs.readFileSync('./setting/setting.json'))
 session = setting.session
 
 
-require('./KichuBot.js')
-nocache('./KichuBot.js', module => console.log(`${module} telah di update!`))
+require('./DogeBot.js')
+nocache('./DogeBot.js', module => console.log(`${module} telah di update!`))
 
 const starts = async (DogeXeonOP = new WAConnection()) => {
     DogeXeonOP.logger.level = 'warn'
